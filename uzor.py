@@ -4,7 +4,7 @@
 
 
 def draw_line(space, color):
-    print(f'{" "*space}\x1b[48;5;255;1m{" "*color}\x1b[0m{" "*(space*2)}\x1b[48;5;255;1m{" "*color}\x1b[0m')
+    print(f'{" "*space}\x1b[48;5;25;1m{" "*color}\x1b[0m{" "*(space*2)}\x1b[48;5;245;1m{" "*color}\x1b[0m')
 
 
 width = 54
